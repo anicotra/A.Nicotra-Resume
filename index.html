@@ -105,7 +105,6 @@
   </header>
 
   <section id="about">
-    <img src="file:///Users/adamnicotra/Downloads/IMG_2156.JPG" alt="Profile Picture">
     <h2>About Me</h2>
     <p>I’m a Cybersecurity Analytics and Operations major at Penn State with minors in Security Risk Analysis and Global Security. I have hands-on experience with network security, penetration testing, and cyber risk analysis. I’m passionate about solving real-world security problems and learning new technologies.</p>
   </section>
@@ -193,9 +192,10 @@
     });
 
     // Download as PDF
-    document.getElementById("downloadBtn").addEventListener("click", () => {
-      html2pdf().from(document.body).save("Adam_Nicotra_Resume_Website.pdf");
-    });
+    <a href="https://raw.githubusercontent.com/anicotra/A-NicotraResume/main/A.%20Nicotra%20Resume.pdf" download>
+  <button>Download Resume PDF</button>
+</a>
+
   </script>
 </body>
 </html>
